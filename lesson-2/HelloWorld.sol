@@ -10,8 +10,6 @@ contract HelloWorld {
         address addr;
     }
 
-    Info[] infos;
-
     mapping(uint256 id => Info info) infoMapping;
   
     function sayHello(uint256 _id) public view returns(string memory) {
